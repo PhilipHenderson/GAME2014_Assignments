@@ -1,3 +1,11 @@
+/*////////////////////////////////////////////////////
+//
+// Title: Forest Ambush Tower Defence
+// Auther: Philip Henderson
+// Date: October 2, 2022
+// 
+*/////////////////////////////////////////////////////
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
