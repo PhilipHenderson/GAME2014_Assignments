@@ -17,7 +17,7 @@ public class SpawnEnemy : MonoBehaviour
     public Text countDownTxt;
     public Text enemyTxt;
     
-    private float health = 0.0f;
+    private int health = 20;
     private float countDown = 2.0f;
     public float enemies;
     private int waveNumber = 0;

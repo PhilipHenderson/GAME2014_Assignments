@@ -34,6 +34,16 @@ public class EnemyBehaviour : MonoBehaviour
         }
     }
 
+    void OnPreRender()
+    {
+        GL.wireframe = true;
+    }
+
+    void OnPostRender()
+    {
+        GL.wireframe = false;
+    }
+
     private void GetNextWayPoint()
     {
 
