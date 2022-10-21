@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //Creating a count down float that decrease with time
 //When it reaches zero, Another wave will Spawn, and the timer will restart to 10 seconds
@@ -12,9 +13,13 @@ public class SpawnEnemy : MonoBehaviour
     public Transform spawnPoint;
     public float timeBetweenWaves = 10.0f;
     public float SpawnDelay;
-
-
+    public Text healthText;
+    public Text countDownTxt;
+    public Text scoreTxt;
+    
+    private float health = 0.0f;
     private float countDown = 2.0f;
+    private float score = 2.0f;
     private int waveNumber = 0;
 
     void Update()
@@ -27,21 +32,26 @@ public class SpawnEnemy : MonoBehaviour
         }
 
         countDown -= Time.deltaTime;
-    }
 
-    IEnumerator SpawnWave()
-    {
-        waveNumber++;
+        healthText.text = Mathf.Floor(health).ToString();
+        countDownTxt.text = Mathf.Floor(countDown).ToString();
+        scoreTxt.text = Mathf.Floor(score).ToString();
 
-        for (int i = 0; i < waveNumber; i++)
+
+        IEnumerator SpawnWave()
         {
-            EnemySpawner();
-            yield return new WaitForSeconds(SpawnDelay);
-        }
-    }
+            waveNumber++;
 
-    void EnemySpawner()
-    {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+            for (int i = 0; i < waveNumber; i++)
+            {
+                EnemySpawner();
+                yield return new WaitForSeconds(SpawnDelay);
+            }
+        }
+
+        void EnemySpawner()
+        {
+            Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        }
     }
 }
