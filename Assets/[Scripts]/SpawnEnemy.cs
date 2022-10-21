@@ -15,11 +15,11 @@ public class SpawnEnemy : MonoBehaviour
     public float SpawnDelay;
     public Text healthText;
     public Text countDownTxt;
-    public Text scoreTxt;
+    public Text enemyTxt;
     
     private float health = 0.0f;
     private float countDown = 2.0f;
-    private float score = 2.0f;
+    public float enemies;
     private int waveNumber = 0;
 
     void Update()
@@ -35,7 +35,7 @@ public class SpawnEnemy : MonoBehaviour
 
         healthText.text = Mathf.Floor(health).ToString();
         countDownTxt.text = Mathf.Floor(countDown).ToString();
-        scoreTxt.text = Mathf.Floor(score).ToString();
+        enemyTxt.text = Mathf.Floor(enemies).ToString();
 
 
         IEnumerator SpawnWave()
@@ -52,6 +52,7 @@ public class SpawnEnemy : MonoBehaviour
         void EnemySpawner()
         {
             Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+            enemies++;
         }
     }
 }

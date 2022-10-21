@@ -3,14 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyBehaviour : MonoBehaviour
 {
+    SpawnEnemy enemies;
     public float speed;
+    public GameObject enemy;
 
     private Transform target;
     private int wayPointIndex = 1;
 
-    private void Start()
+    void Awake()
+    {
+        enemies = enemy.GetComponent<SpawnEnemy>();    
+    }
+
+    void Start()
     {
         target = WayPoints.points[0];
     }
@@ -32,6 +40,11 @@ public class EnemyBehaviour : MonoBehaviour
         if (wayPointIndex >= WayPoints.points.Length - 1)
         {
             Destroy(gameObject);
+            if (enemies != null)
+            {
+                Debug.Log("Decreasing enemies");
+                enemies.enemies--;
+            }
             return;
         }
         wayPointIndex++;
