@@ -9,12 +9,11 @@ public class BulletScript : MonoBehaviour
 
     private Transform target;
 
-
     public void Seek(Transform _target)
     {
         target = _target;
     }
-    
+
     void Update()
     {
         if (target == null)
@@ -34,9 +33,8 @@ public class BulletScript : MonoBehaviour
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
     }
 
-    void HitTarget()
+    public void HitTarget()
     {
-        Debug.Log("We Hit Something");
         Destroy(gameObject);
         Destroy(target.gameObject);
     }

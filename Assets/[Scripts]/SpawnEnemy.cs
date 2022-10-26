@@ -13,11 +13,11 @@ public class SpawnEnemy : MonoBehaviour
     public Transform spawnPoint;
     public float timeBetweenWaves = 10.0f;
     public float SpawnDelay;
-    public Text healthText;
+    public Text CurrentLives;
     public Text countDownTxt;
     public Text enemyTxt;
     
-    private int health = 20;
+    public int lives = 20;
     private float countDown = 2.0f;
     public float enemies;
     private int waveNumber = 0;
@@ -28,12 +28,11 @@ public class SpawnEnemy : MonoBehaviour
         {
             StartCoroutine(SpawnWave());
             countDown = timeBetweenWaves;
-
         }
 
         countDown -= Time.deltaTime;
 
-        healthText.text = Mathf.Floor(health).ToString();
+        CurrentLives.text = Mathf.Floor(lives).ToString();
         countDownTxt.text = Mathf.Floor(countDown).ToString();
         enemyTxt.text = Mathf.Floor(enemies).ToString();
 
