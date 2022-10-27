@@ -34,9 +34,7 @@ public class SpawnEnemy : MonoBehaviour
 
         countDown = Mathf.Clamp(countDown, 0.0f, Mathf.Infinity);
 
-        CurrentLives.text = Mathf.Floor(lives).ToString();
         countDownTxt.text = String.Format("{0:00.00}", countDown);
-
 
         IEnumerator SpawnWave()
         {

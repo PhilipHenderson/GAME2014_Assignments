@@ -6,6 +6,9 @@ public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
 
+    public GameObject GMC;
+    public GameObject Spawner;
+
     public GameObject buildTiles;
 
     void Awake()
@@ -17,7 +20,16 @@ public class BuildManager : MonoBehaviour
         }
             instance = this;
     }
-    
+
+    void Update()
+    {
+        if (PlayerStats.lives <= 0)
+        {
+            GMC.SetActive(true);
+            Spawner.SetActive(false);
+        }
+    }
+
     public GameObject tower1Prefab;
     public GameObject tower2Prefab;
     public GameObject tower3Prefab;

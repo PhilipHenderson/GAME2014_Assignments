@@ -3707,6 +3707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a1cbf763a769a4baa60c347d63db10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GMC: {fileID: 2144015800}
+  Spawner: {fileID: 452989197}
   buildTiles: {fileID: 630857830}
   tower1Prefab: {fileID: 1086670770150825144, guid: 5343ef4c414b8514f81b07b143fabe79, type: 3}
   tower2Prefab: {fileID: 1086670770150825144, guid: 39f342a36d68bd34fbdaa442939da3a0, type: 3}
@@ -3724,6 +3726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startGold: 100
+  startLives: 12
 --- !u!1 &454333604
 GameObject:
   m_ObjectHideFlags: 0
@@ -6559,6 +6562,7 @@ GameObject:
   - component: {fileID: 803881369}
   - component: {fileID: 803881368}
   - component: {fileID: 803881367}
+  - component: {fileID: 803881370}
   m_Layer: 5
   m_Name: LivesTxt
   m_TagString: Untagged
@@ -6628,6 +6632,19 @@ RectTransform:
   m_AnchoredPosition: {x: -491.3, y: 1333.9}
   m_SizeDelta: {x: 313.83, y: 125.9}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &803881370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803881366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3b2660025222b4da66746653225316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  livesText: {fileID: 803881367}
 --- !u!4 &811146270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}

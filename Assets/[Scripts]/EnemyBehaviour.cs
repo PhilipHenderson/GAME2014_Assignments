@@ -50,6 +50,7 @@ public class EnemyBehaviour : MonoBehaviour
         if (wayPointIndex >= WayPoints.points.Length - 1)
         {
             Destroy(gameObject);
+            PlayerStats.lives--;
             if (enemies != null)
             {
                 Debug.Log("Decrease Health");
