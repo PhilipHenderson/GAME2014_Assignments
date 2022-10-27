@@ -72,13 +72,11 @@ public class TurretScript : MonoBehaviour
 
         if (bullet != null)
             bullet.Seek(target);
-
     }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, range);
-        
     }
 }

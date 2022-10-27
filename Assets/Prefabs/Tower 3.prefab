@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 1086670770150825146}
   - component: {fileID: 1086670770150825145}
   m_Layer: 5
-  m_Name: Tower
+  m_Name: Tower 3
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,9 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  spawnEnemy: {fileID: 5801932197196725373, guid: b60358204d1c1324894ebb71a4078a84, type: 3}
-  range: 1
-  fireRate: 1
+  range: 3
+  fireRate: 0.2
   enemyTag: Enemy
   bulletProfab: {fileID: 9077879103136573818, guid: a32f42af58844284e826e32f0d73a9d1, type: 3}
   firePoint: {fileID: 685349569}

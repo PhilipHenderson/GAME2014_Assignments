@@ -15,12 +15,17 @@ public class SpawnEnemy : MonoBehaviour
     public float SpawnDelay;
     public Text CurrentLives;
     public Text countDownTxt;
-    public Text enemyTxt;
+    public Text goldTxt;
     
     public int lives = 20;
     private float countDown = 2.0f;
-    public float enemies;
+    public float gold = 0;
     private int waveNumber = 0;
+
+    void Start()
+    {
+        gold = 10;
+    }
 
     void Update()
     {
@@ -34,7 +39,7 @@ public class SpawnEnemy : MonoBehaviour
 
         CurrentLives.text = Mathf.Floor(lives).ToString();
         countDownTxt.text = Mathf.Floor(countDown).ToString();
-        enemyTxt.text = Mathf.Floor(enemies).ToString();
+        goldTxt.text = Mathf.Floor(gold).ToString();
 
 
         IEnumerator SpawnWave()
@@ -51,7 +56,6 @@ public class SpawnEnemy : MonoBehaviour
         void EnemySpawner()
         {
             Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
-            enemies++;
         }
     }
 }
