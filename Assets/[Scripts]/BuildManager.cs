@@ -6,6 +6,8 @@ public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
 
+    public GameObject buildTiles;
+
     void Awake()
     {
         if (instance != null)
@@ -27,10 +29,26 @@ public class BuildManager : MonoBehaviour
         get { return towerToBuild != null; } 
     }
 
+    public bool HasGold
+    {
+        get { return PlayerStats.gold >= towerToBuild.cost; }
+    }
+
     public void BuildTowerOn(TileScript tile)
     {
+        if (PlayerStats.gold < towerToBuild.cost)
+        {
+            Debug.Log("Not Enough Moeny");
+            return;
+        }
+
+        PlayerStats.gold -= towerToBuild.cost;
+
         GameObject tower = (GameObject)Instantiate(towerToBuild.prefab, tile.GetBuildPosition(), Quaternion.identity);
         tile.tower = tower;
+
+        Debug.Log("Tower Built, Money Left: " + PlayerStats.gold);
+        buildTiles.SetActive(false);
     }
 
     public void SelectTowerToBuild(TowerSettings tower)

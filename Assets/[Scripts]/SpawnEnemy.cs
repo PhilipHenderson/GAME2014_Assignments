@@ -19,13 +19,8 @@ public class SpawnEnemy : MonoBehaviour
     
     public int lives = 20;
     private float countDown = 2.0f;
-    public float gold = 0;
+    public float gold;
     private int waveNumber = 0;
-
-    void Start()
-    {
-        gold = 10;
-    }
 
     void Update()
     {
@@ -37,9 +32,10 @@ public class SpawnEnemy : MonoBehaviour
 
         countDown -= Time.deltaTime;
 
+        countDown = Mathf.Clamp(countDown, 0.0f, Mathf.Infinity);
+
         CurrentLives.text = Mathf.Floor(lives).ToString();
-        countDownTxt.text = Mathf.Floor(countDown).ToString();
-        goldTxt.text = Mathf.Floor(gold).ToString();
+        countDownTxt.text = String.Format("{0:00.00}", countDown);
 
 
         IEnumerator SpawnWave()

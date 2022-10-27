@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8975023013373763620
 MeshFilter:
@@ -113,6 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86f0d621dfcffec40a61fc43e9d03a7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColer: {r: 0.31132078, g: 0.113526024, b: 0.1013261, a: 0.16470589}
+  hoverColer: {r: 0.052918315, g: 1, b: 0, a: 1}
+  NotEnoughGoldColor: {r: 1, g: 0.12787381, b: 0, a: 1}
   offset: {x: 0, y: 0, z: -0.5}
+  tower: {fileID: 0}
   buildTiles: {fileID: 0}

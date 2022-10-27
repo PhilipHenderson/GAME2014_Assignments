@@ -5,6 +5,7 @@ using UnityEngine;
 public class TileScript : MonoBehaviour
 {
     public Color hoverColer;
+    public Color NotEnoughGoldColor;
     public Vector3 offset;
 
     [Header("Optional")]
@@ -42,13 +43,24 @@ public class TileScript : MonoBehaviour
         }
 
         buildManager.BuildTowerOn(this);
+
     }
 
     void OnMouseEnter()
     {
         if(!buildManager.CanBuild) 
             return;
-        GetComponent<Renderer>().material.color = hoverColer;
+
+        if (buildManager.HasGold)
+        {
+            rend.material.color = hoverColer;
+        }
+        else
+        {
+            rend.material.color = NotEnoughGoldColor;
+        }
+
+
     }
 
     void OnMouseExit()
