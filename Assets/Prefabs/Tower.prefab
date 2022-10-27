@@ -147,7 +147,7 @@ Transform:
   - {fileID: 1086670769785562347}
   - {fileID: 685349569}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1086670770150825145
 MonoBehaviour:
@@ -162,9 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  spawnEnemy: {fileID: 5801932197196725373, guid: b60358204d1c1324894ebb71a4078a84, type: 3}
   range: 1
   fireRate: 1
   enemyTag: Enemy
-  bulletProfab: {fileID: 9077879103136573818, guid: a32f42af58844284e826e32f0d73a9d1, type: 3}
+  bulletProfab: {fileID: 9077879103136573818, guid: f395347e0d0ba5f46aa93a8bc35c6c7b, type: 3}
   firePoint: {fileID: 685349569}

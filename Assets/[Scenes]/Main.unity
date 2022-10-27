@@ -270,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -337,6 +341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -404,6 +412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -555,6 +567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -908,6 +924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1091,6 +1111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1279,6 +1303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1532,6 +1560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1678,6 +1710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1899,6 +1935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2139,6 +2179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3534,6 +3578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3601,6 +3649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3790,9 +3842,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a1cbf763a769a4baa60c347d63db10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower1Prefab: {fileID: 1086670770150825144, guid: 5343ef4c414b8514f81b07b143fabe79, type: 3}
-  Tower2Prefab: {fileID: 1086670770150825144, guid: 5343ef4c414b8514f81b07b143fabe79, type: 3}
-  Tower3Prefab: {fileID: 1086670770150825144, guid: 5343ef4c414b8514f81b07b143fabe79, type: 3}
+  tower1Prefab: {fileID: 0}
+  tower2Prefab: {fileID: 0}
+  tower3Prefab: {fileID: 0}
 --- !u!1 &454333604
 GameObject:
   m_ObjectHideFlags: 0
@@ -3894,6 +3946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4134,6 +4190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4550,6 +4610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4617,6 +4681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4970,7 +5038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &630857831
 Transform:
   m_ObjectHideFlags: 0
@@ -5047,6 +5115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5796,6 +5868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6047,6 +6123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6346,6 +6426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -6935,6 +7019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -7747,6 +7835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8044,7 +8136,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1211413604}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: PurchaseTower1
+        m_MethodName: SelectTower1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8178,7 +8270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1211413604}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: PurchaseTower2
+        m_MethodName: SelectTower2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8723,6 +8815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -8884,6 +8980,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b2ef302ac0b6f42a97ea299a2e59a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildTiles: {fileID: 630857830}
+  Tower1:
+    prefab: {fileID: 1086670770150825144, guid: 5343ef4c414b8514f81b07b143fabe79, type: 3}
+    cost: 10
+  Tower2:
+    prefab: {fileID: 1086670770150825144, guid: 39f342a36d68bd34fbdaa442939da3a0, type: 3}
+    cost: 50
+  Tower3:
+    prefab: {fileID: 1086670770150825144, guid: 24602e1f72ad8b9439475bcf19896303, type: 3}
+    cost: 150
 --- !u!4 &1228645227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
@@ -9456,6 +9562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9523,6 +9633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9717,6 +9831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10139,6 +10257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10206,6 +10328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10780,6 +10906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -10857,6 +10987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11598,6 +11732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11665,6 +11803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11732,6 +11874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11799,6 +11945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12049,6 +12199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12284,6 +12438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12351,6 +12509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12418,6 +12580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13105,6 +13271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13330,7 +13500,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1211413604}
         m_TargetAssemblyTypeName: Shop, Assembly-CSharp
-        m_MethodName: PurchaseTower3
+        m_MethodName: SelectTower3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13861,6 +14031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -13987,6 +14161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14350,6 +14528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -14822,36 +15004,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 630857831}
     m_Modifications:
     - target: {fileID: 8975023013373763616, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8975023013373763616, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
     - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: hoverColer.b
-      value: 0.1013261
-      objectReference: {fileID: 0}
-    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: hoverColer.g
-      value: 0.113526024
-      objectReference: {fileID: 0}
-    - target: {fileID: 8975023013373763617, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: hoverColer.r
-      value: 0.31132078
-      objectReference: {fileID: 0}
+      propertyPath: buildTiles
+      value: 
+      objectReference: {fileID: 630857830}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_RootOrder
       value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8975023013373763621, guid: 264536a3f0e12294fab2c90cc64b5daa, type: 3}
       propertyPath: m_LocalPosition.x

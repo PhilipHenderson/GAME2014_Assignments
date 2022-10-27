@@ -147,7 +147,7 @@ Transform:
   - {fileID: 1086670769785562347}
   - {fileID: 685349569}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1086670770150825145
 MonoBehaviour:
@@ -165,5 +165,5 @@ MonoBehaviour:
   range: 3
   fireRate: 0.2
   enemyTag: Enemy
-  bulletProfab: {fileID: 9077879103136573818, guid: a32f42af58844284e826e32f0d73a9d1, type: 3}
+  bulletProfab: {fileID: 9077879103136573818, guid: b24fd743eed0fba4994e2fa57c470dcb, type: 3}
   firePoint: {fileID: 685349569}

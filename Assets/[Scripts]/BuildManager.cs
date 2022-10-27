@@ -16,19 +16,25 @@ public class BuildManager : MonoBehaviour
             instance = this;
     }
     
-    public GameObject Tower1Prefab;
-    public GameObject Tower2Prefab;
-    public GameObject Tower3Prefab;
+    public GameObject tower1Prefab;
+    public GameObject tower2Prefab;
+    public GameObject tower3Prefab;
 
-    private GameObject TowerToBuild;
+    private TowerSettings towerToBuild;
 
-    public GameObject GetTowerToBuild()
+    public bool CanBuild 
     {
-        return TowerToBuild;
+        get { return towerToBuild != null; } 
     }
 
-    public void SetTowerToBuild(GameObject tower)
+    public void BuildTowerOn(TileScript tile)
     {
-        TowerToBuild = tower;
+        GameObject tower = (GameObject)Instantiate(towerToBuild.prefab, tile.GetBuildPosition(), Quaternion.identity);
+        tile.tower = tower;
+    }
+
+    public void SelectTowerToBuild(TowerSettings tower)
+    {
+        towerToBuild = tower;
     }
 }

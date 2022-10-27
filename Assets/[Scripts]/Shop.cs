@@ -6,25 +6,34 @@ public class Shop : MonoBehaviour
 {
     BuildManager buildManager;
 
+    public GameObject buildTiles;
+
+    public TowerSettings Tower1;
+    public TowerSettings Tower2;
+    public TowerSettings Tower3;
+
     private void Start()
     {
         buildManager = BuildManager.instance;
     }
-    public void PurchaseTower1()
+    public void SelectTower1()
     {
         Debug.Log("Tower1 Selected");
-        buildManager.SetTowerToBuild(buildManager.Tower1Prefab);
+        buildManager.SelectTowerToBuild(Tower1);
+        buildTiles.SetActive(true);
     }
 
-    public void PurchaseTower2()
+    public void SelectTower2()
     {
         Debug.Log("Tower2 Selected");
-        buildManager.SetTowerToBuild(buildManager.Tower2Prefab);
+        buildManager.SelectTowerToBuild(Tower2);
+        buildTiles.SetActive(true);
     }
 
-    public void PurchaseTower3()
+    public void SelectTower3()
     {
         Debug.Log("Tower3 Selected");
-        buildManager.SetTowerToBuild(buildManager.Tower3Prefab);
+        buildManager.SelectTowerToBuild(Tower3);
+        buildTiles.SetActive(true);
     }
 }

@@ -7,7 +7,10 @@ public class TileScript : MonoBehaviour
     public Color hoverColer;
     public Vector3 offset;
 
-    private GameObject turret;
+    [Header("Optional")]
+    public GameObject tower;
+
+    public GameObject buildTiles;
 
     private Renderer rend;
     private Color startColor;
@@ -22,25 +25,28 @@ public class TileScript : MonoBehaviour
         buildManager = BuildManager.instance;
     }
 
+    public Vector3 GetBuildPosition()
+    {
+        return transform.position + offset;
+    }
+
     void OnMouseDown()
     {
-        if (buildManager.GetTowerToBuild() == null) 
+        if (!buildManager.CanBuild)
             return;
         
-        if (turret != null)
+        if (tower != null)
         {
             Debug.Log("Turret already there"); 
             return;
         }
 
-        GameObject turretToBuild = buildManager.GetTowerToBuild();
-        turret = (GameObject)Instantiate(turretToBuild, transform.position + offset, transform.rotation);
-
+        buildManager.BuildTowerOn(this);
     }
 
     void OnMouseEnter()
     {
-        if(buildManager.GetTowerToBuild() == null) 
+        if(!buildManager.CanBuild) 
             return;
         GetComponent<Renderer>().material.color = hoverColer;
     }
