@@ -39,6 +39,7 @@ public class BuildManager : MonoBehaviour
         if (PlayerStats.gold < towerToBuild.cost)
         {
             Debug.Log("Not Enough Moeny");
+            buildTiles.SetActive(false);
             return;
         }
 

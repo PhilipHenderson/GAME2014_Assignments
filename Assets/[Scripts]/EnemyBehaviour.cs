@@ -52,7 +52,7 @@ public class EnemyBehaviour : MonoBehaviour
             Destroy(gameObject);
             if (enemies != null)
             {
-                Debug.Log("Increasing Gold");
+                Debug.Log("Decrease Health");
             }
             return;
         }

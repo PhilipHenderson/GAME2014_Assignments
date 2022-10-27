@@ -37,5 +37,6 @@ public class BulletScript : MonoBehaviour
     {
         Destroy(gameObject);
         Destroy(target.gameObject);
+        PlayerStats.gold += 2;
     }
 }
